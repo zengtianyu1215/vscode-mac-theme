@@ -1,0 +1,31 @@
+{
+    "name": "xcode-vscode-theme",
+    "displayName": "xcode-vscode-theme",
+    "description": "xcode theme for vscode, with elegant color highlight",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "xcode theme dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/xcode-theme-color-theme.json"
+            },
+            {
+                "label": "xcode theme darker",
+                "uiTheme": "vs-dark",
+                "path": "./themes/xcode-theme-color-theme-darker.json"
+            },
+            {
+                "label": "xcode theme light",
+                "uiTheme": "vs",
+                "path": "./themes/xcode-theme-color-theme-light.json"
+            }
+        ]
+    }
+}
